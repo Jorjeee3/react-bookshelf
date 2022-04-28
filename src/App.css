@@ -1,0 +1,53 @@
+.App {
+  margin: 0 5%;
+  padding: 50px 0;
+  z-index: 10;
+}
+
+.logo {
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 20px 10px;
+  color: #fff;
+  background-color: rgb(220, 116, 116);
+}
+
+.logo span {
+  margin-left: 6px;
+}
+
+.secondary-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  width: 18%;
+  height: auto;
+  margin: 0 1% 24px;
+  padding: 0 0 18px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+  .card-item {
+    width: 23%;
+    margin: 0 1% 24px;
+    padding: 0 0 18px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .card-item {
+    width: 48%;
+    margin: 0 1% 24px;
+    padding: 0 0 18px;
+  }
+}
+
