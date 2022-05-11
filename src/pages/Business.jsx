@@ -20,7 +20,6 @@ function Business() {
 
   return (
     <div className='business-section'>
-        <h1>Business</h1>
         <ul className="card-list">
             {business.map(data => {
                 return (

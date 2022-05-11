@@ -20,7 +20,6 @@ function Technology() {
 
   return (
     <div className='deadline-section'>
-        <h1>technology</h1>
         <ul className="card-list">
           {technology.map(data => {
             return (

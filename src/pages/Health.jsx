@@ -20,7 +20,6 @@ function Health() {
 
   return (
     <div className='health-section'>
-        <h1>health</h1>
         <ul className="card-list">
             {health.map(data => {
                 return (

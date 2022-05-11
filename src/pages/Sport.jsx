@@ -20,7 +20,6 @@ function Sport() {
 
   return (
     <div className='sport-section'>
-        <h1>sport</h1>
         <ul className="card-list">
           {sport.map(data => {
             return (
